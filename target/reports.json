@@ -1,0 +1,164 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 73700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "enter some basic fun for all scenario",
+            "match": {
+              "location": "LoginCoding.enter_some_basic_fun_for_all_scenario()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 564800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.launchbrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login simpleformat",
+        "description": "",
+        "id": "flipkart-automation;login-simpleformat",
+        "after": [
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "launch a browser",
+            "match": {
+              "location": "LoginCoding.launch_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user enter username \"yuvarj\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yuvarj\"",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginCoding.user_enter_username(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enter password \"45678ghj!@#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"45678ghj!@#\"",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginCoding.user_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginCoding.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3300,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user validates the login screen with userid or username",
+            "match": {
+              "location": "LoginCoding.user_validates_the_login_screen_with_userid_or_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user goes to search page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginfeature"
+          },
+          {
+            "name": "@login1"
+          }
+        ]
+      }
+    ],
+    "name": "Flipkart automation",
+    "description": "used to auotmate flipkart modules",
+    "id": "flipkart-automation",
+    "keyword": "Feature",
+    "uri": "./src/test/resources/Flipakrt.feature",
+    "tags": [
+      {
+        "name": "@loginfeature",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
